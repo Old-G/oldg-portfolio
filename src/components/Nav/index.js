@@ -1,7 +1,6 @@
 import { Link } from 'react-scroll'
-import content from '../../content'
 
-const Nav = ({data}) => {
+const Nav = ({ data }) => {
   return (
     <div
       style={{ background: '#091c29' }}
