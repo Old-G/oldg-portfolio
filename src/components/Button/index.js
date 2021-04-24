@@ -7,11 +7,11 @@ const Button = ({ text, url }) => {
 
   return (
     <div
-      className={` animate-bounce bg-indigo-500 py-3 w-48 text-lg uppercase text-white rounded-lg mb-10 hover:bg-indigo-300 transform focus:outline-none  ${
+      className={` animate-bounce bg-indigo-500 py-3 w-48 text-lg uppercase text-white rounded-lg my-10 hover:bg-indigo-300 transform focus:outline-none  ${
         animated ? 'translate-y-0' : styleTranslate
       } ${transition(3500)}`}
     >
-      <a className='flex justify-center' href={url}>
+      <a className='flex justify-center cursor-pointer' href={url}>
         {text}
       </a>
     </div>

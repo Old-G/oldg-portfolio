@@ -66,9 +66,12 @@ const Contact = ({ data }) => {
               animated ? '' : 'translate-y-10 opacity-0'
             } transform transition duration-3000 `}
           >
-            <ul className='flex space-x-2 mt-2 mb-6'>{networks}</ul>
+            <ul className='flex space-x-2 mt-2'>{networks}</ul>
           </div>
-          <Button text='Download CV' url='https://drive.google.com/file/d/1nIBMm1ysUMdygA-4d_c7wTtqRY8m0w6x/view?usp=sharing' />
+          <Button
+            text='Download CV'
+            url='https://drive.google.com/file/d/1nIBMm1ysUMdygA-4d_c7wTtqRY8m0w6x/view?usp=sharing'
+          />
         </div>
       </div>
     </div>
