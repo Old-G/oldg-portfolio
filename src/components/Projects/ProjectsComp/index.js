@@ -6,7 +6,7 @@ const ProjectsComp = ({ data }) => {
   const animated = useWindowPosition('header', 0.6)
 
   return (
-    <div className='pb-32 flex flex-col items-center justify-center font-dosis '>
+    <div className=' flex flex-col items-center justify-center font-dosis '>
       <p className='text-gray-600 text-2xl font-dosis mb-10'>I have done</p>
       <div className='flex flex-col md:flex-row justify-between items-center w-11/12 '>
         <LazyLoadImage
@@ -14,7 +14,7 @@ const ProjectsComp = ({ data }) => {
           src={data.img}
           alt={data.title}
           key={data.title}
-          className='m-10 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5 rounded-md'
+          className='m-10 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-72 h-56 md:h-auto rounded-md'
         />
 
         <div
@@ -32,14 +32,14 @@ const ProjectsComp = ({ data }) => {
             <h1
               className={` ${
                 animated ? '' : 'translate-y-10 opacity-0'
-              }   transform transition duration-2000 inline-block m-4  font-dosis text-xl font-bold`}
+              }   transform transition duration-2000 inline-block m-4 font-dosis text-xl font-bold`}
             >
               {data.title}
             </h1>
             <p
               className={`${
                 animated ? '' : 'translate-y-10 opacity-0'
-              }  transform transition duration-2000 inline-block w-11/12 m-4  text-xl font-dosis`}
+              }  transform transition duration-2000 inline-block w-11/12 m-4 text-xl font-dosis`}
             >
               {data.desc}
             </p>
@@ -47,7 +47,7 @@ const ProjectsComp = ({ data }) => {
               <button
                 className={`${
                   animated ? '' : 'translate-y-10 opacity-0'
-                } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
+                } transform transition duration-2000 px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
               >
                 <img
                   src='https://timo.engineer/assets/icons/rocket.svg'

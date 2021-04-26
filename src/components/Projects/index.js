@@ -15,7 +15,7 @@ const Projects = () => {
         Projects
       </h1>
       <Carousel
-        className='mb-10 focus:outline-none'
+        style={{ height: '43.75rem' }}
         speed={1500}
         renderCenterLeftControls={({ previousSlide }) => (
           <button

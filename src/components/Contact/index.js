@@ -44,7 +44,7 @@ const Contact = ({ data }) => {
           placeholderSrc={data.imgPlaceholder}
           alt='profile'
           width='300px'
-          className='mt-10 transtion duration-2000 ease-in-out mx-auto'
+          className='hidden md:block mt-10 transtion duration-2000 ease-in-out mx-auto'
         />
         <div className='font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000'>
           <h1
@@ -62,11 +62,11 @@ const Contact = ({ data }) => {
             {data.desc}
           </p>
           <div
-            className={`flex ${
+            className={`flex  ${
               animated ? '' : 'translate-y-10 opacity-0'
             } transform transition duration-3000 `}
           >
-            <ul className='flex space-x-2 mt-2'>{networks}</ul>
+            <ul className='flex flex-wrap space-x-2 mt-2'>{networks}</ul>
           </div>
           <Button
             text='Download CV'

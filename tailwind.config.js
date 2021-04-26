@@ -314,6 +314,7 @@ module.exports = {
       full: '100%',
       screen: '100vh',
       442: '27.625rem',
+      625: '39.063rem',
       '1/2': '50%',
     }),
     inset: {
