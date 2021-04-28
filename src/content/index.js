@@ -166,8 +166,7 @@ export default {
       'https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80',
     btn: {
       text: 'Download CV',
-      url:
-        'https://drive.google.com/file/d/1n1Cm5qzGGtG056AWvRYw-f4Xulcj8yQd/view?usp=sharing',
+      url: '',
     },
   },
 }
