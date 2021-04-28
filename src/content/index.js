@@ -167,7 +167,7 @@ export default {
     btn: {
       text: 'Download CV',
       url:
-        'https://drive.google.com/file/d/1nIBMm1ysUMdygA-4d_c7wTtqRY8m0w6x/view?usp=sharing',
+        'https://drive.google.com/file/d/1n1Cm5qzGGtG056AWvRYw-f4Xulcj8yQd/view?usp=sharing',
     },
   },
 }
